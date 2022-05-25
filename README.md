@@ -13,7 +13,7 @@ Create a web app that demonstrates a wide variety of skills.
   - [ ] **Docker** as a container service. 
   - [x] **Git** as a version control system.
   - [ ] Cloud service to host the app in the cloud.
-  - [ ] **MongoDB** realm to convert the backend to serverless. 
+  - [ ] **MongoDB Realm** to convert the backend to serverless. 
 
 
 
