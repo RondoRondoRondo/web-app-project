@@ -1,19 +1,16 @@
-# MERN STACK WEB APP
+# Web App
 
-## Idea
-Create a web app that demonstrates a wide variety of skills.
+## Tech Stack 
+<ul>
+  <li> MongoDB
+  <li> Express
+  <li> React
+  <li> Node.js
+</ul>
 
-### Tech Stack
-  - [ ] **MongoDB** as a NoSQL database. 
-  - [ ] **Express** as a backend web app framework.
-  - [ ] **React** as a frontend framework. 
-  - [ ] **Node.js** as a backend runtime environment. 
-
-### Additional Tech / Extensions 
-  - [ ] **Docker** as a container service. 
-  - [x] **Git** as a version control system.
-  - [ ] Cloud service to host the app in the cloud.
-  - [ ] **MongoDB Realm** to convert the backend to serverless. 
+## Additional Resources
+#### HTTP Status Codes Guide
+https://www.restapitutorial.com/httpstatuscodes.html
 
 
 
