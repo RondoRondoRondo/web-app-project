@@ -9,6 +9,7 @@
   <li> STYLE: Fix the file input button.
   <li> STYLE: I want the tags to register as their own 'box' after input in the form. 
   <li> STYLE: I want the 'message' box in the form to be changed to 'recipe'. Also, want it to be more conducive to a recipe entry. (List feature or smth) 
+</ul>
 
 ## Tech Stack 
 <ul>
@@ -26,13 +27,14 @@
   <li> 'npm start' in both terminals. 
   <li> Should automatically open webpage. 
   <li> [Client] localhost:3000 && [Server] localhost:5000/posts otherwise. 
+</ul>
 
 ## Additional Resources
-#### Material UI Documentation
+### Material UI Documentation
 https://mui.com/material-ui/getting-started/overview/
-#### HTTP Status Codes Guide
+### HTTP Status Codes Guide
 https://www.restapitutorial.com/httpstatuscodes.html
-#### APP STYLES 
+### APP STYLES 
 https://gist.github.com/adrianhajdin/d99aaa67124f0de7667fd3937715fb26
 
 
