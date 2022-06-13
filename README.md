@@ -2,9 +2,12 @@
 
 ## TODO
 <ul>
-  <li> REPLACE: Theme.spacing() in Forms and Posts. (Deprecated?)
+  <li> FIND: Title for website. 
+  <li> REPLACE: Theme.spacing() in Forms and Posts. *Changed to '4px' currently*
   <li> IMPLEMENT: connect POSTS and POST to the backend. 
-  <li> STYLE: Fix the file input button. 
+  <li> STYLE: Fix the file input button.
+  <li> STYLE: I want the tags to register as their own 'box' after input in the form. 
+  <li> STYLE: I want the 'message' box in the form to be changed to 'recipe'. Also, want it to be more conducive to a recipe entry. (List feature or smth) 
 
 ## Tech Stack 
 <ul>
@@ -21,7 +24,7 @@
   <li> 'cd /client/' && 'cd /server/'
   <li> 'npm start' in both terminals. 
   <li> Should automatically open webpage. 
-  <li> localhost:3000 && localhost:5000/posts otherwise. 
+  <li> [Client] localhost:3000 && [Server] localhost:5000/posts otherwise. 
 
 ## Additional Resources
 #### Material UI Documentation
