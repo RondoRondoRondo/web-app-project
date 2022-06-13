@@ -21,14 +21,11 @@
 
   - Download [NodeJS](https://nodejs.org/en/download/)
   - Split Terminal in preferred IDE. 
-  - In one terminal use command:
-      cd web-app-project/client/
-  - In the other terminal use command:
-      cd web-app-project/server/
-  - In both terminals use command:
-      npm start
+  - In one terminal use command: `cd web-app-project/client/`
+  - In the other terminal use command: `cd web-app-project/server/`
+  - In both terminals use command: `npm start`
   - Should automatically open webpage. 
-  - *Client* localhost:3000 && *Server* localhost:5000/posts otherwise. 
+  - *Client* localhost:3000 && *Server* localhost:5000/posts in your web browser otherwise. 
 
 ## Additional Resources
 
