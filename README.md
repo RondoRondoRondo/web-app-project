@@ -2,39 +2,39 @@
 
 ## TODO
 
-<ul>
-  <li> FIND: Title for website. 
-  <li> REPLACE: Theme.spacing() in Forms and Posts. *Changed to '4px' currently*
-  <li> IMPLEMENT: connect POSTS and POST to the backend. 
-  <li> STYLE: Fix the logo png. 
-  <li> STYLE: Fix the file input button.
-  <li> STYLE: I want the tags to register as their own 'box' after input in the form. 
-  <li> STYLE: I want the 'message' box in the form to be changed to 'recipe'. Also, want it to be more conducive to a recipe entry. (List feature or smth) 
-</ul>
+
+  - FIND: Title for website. 
+  - REPLACE: Theme.spacing() in Forms and Posts. *Changed to '4px' currently*
+  - IMPLEMENT: connect POSTS and POST to the backend. 
+  - STYLE: Fix the logo png. 
+  - STYLE: Fix the file input button.
+  - STYLE: I want the tags to register as their own 'box' after input in the form. 
+  - STYLE: I want the 'message' box in the form to be changed to 'recipe'. Also, want it to be more conducive to a recipe entry. (List feature or smth) 
+
 
 ## Tech Stack 
 
-<ul>
-  <li> MongoDB
-  <li> Express
-  <li> React
-  <li> Node.js
-</ul>
+
+  - MongoDB
+  - Express
+  - React
+  - Node.js
+
 
 ## How to Run
 
-<ul>
-  <li> Download [NodeJS](https://nodejs.org/en/download/)
-  <li> Split Terminal in preferred IDE. 
-  <li> In one terminal use
+
+  - Download [NodeJS](https://nodejs.org/en/download/)
+  - Split Terminal in preferred IDE. 
+  - In one terminal use
           cd /client/
-  <li> In the other terminal use
+  - In the other terminal use
           cd /server/
-  <li> In both terminals run
+  - In both terminals run
       npm start
-  <li> Should automatically open webpage. 
-  <li> [Client] localhost:3000 && [Server] localhost:5000/posts otherwise. 
-</ul>
+  - Should automatically open webpage. 
+  - [Client] localhost:3000 && [Server] localhost:5000/posts otherwise. 
+
 
 ## Additional Resources
 
