@@ -24,12 +24,12 @@
 ## How to Run
 
 <ul>
-  <li> Download [Node.js](https://nodejs.org/en/download/)
+  <li> Download [NodeJS](https://nodejs.org/en/download/)
   <li> Split Terminal in preferred IDE. 
-  <li> In one terminal run
-      cd /client/
-  <li> In the other terminal run
-      cd /server/
+  <li> In one terminal use
+          cd /client/
+  <li> In the other terminal use
+          cd /server/
   <li> In both terminals run
       npm start
   <li> Should automatically open webpage. 
