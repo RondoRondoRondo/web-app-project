@@ -1,6 +1,7 @@
 # Web App
 
 ## TODO
+
 <ul>
   <li> FIND: Title for website. 
   <li> REPLACE: Theme.spacing() in Forms and Posts. *Changed to '4px' currently*
@@ -12,6 +13,7 @@
 </ul>
 
 ## Tech Stack 
+
 <ul>
   <li> MongoDB
   <li> Express
@@ -20,16 +22,22 @@
 </ul>
 
 ## How to Run
+
 <ul>
-  <li> Download required tech. (Testing req)
-  <li> Split Terminal
-  <li> 'cd /client/' && 'cd /server/'
-  <li> 'npm start' in both terminals. 
+  <li> Download [Node.js](https://nodejs.org/en/download/)
+  <li> Split Terminal in preferred IDE. 
+  <li> In one terminal run
+      cd /client/
+  <li> In the other terminal run
+      cd /server/
+  <li> In both terminals run
+      npm start
   <li> Should automatically open webpage. 
   <li> [Client] localhost:3000 && [Server] localhost:5000/posts otherwise. 
 </ul>
 
 ## Additional Resources
+
 ### Material UI Documentation
 https://mui.com/material-ui/getting-started/overview/
 ### HTTP Status Codes Guide
