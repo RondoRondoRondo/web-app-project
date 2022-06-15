@@ -1,5 +1,8 @@
 # Web App
 
+## About
+The purpose of the this app is for users to share their favorite recipes with the world. This app follows the CRUD Application Design where we can create, read, update, and delete posts. Future iterations of the app will include additional pages, post sorting, and a sign-in feature. 
+
 ## TODO
 
   - FIND: Title for website. 
@@ -33,8 +36,11 @@
 https://mui.com/material-ui/getting-started/overview/
 ### HTTP Status Codes Guide
 https://www.restapitutorial.com/httpstatuscodes.html
-### APP STYLES 
+### Component Styles 
 https://gist.github.com/adrianhajdin/d99aaa67124f0de7667fd3937715fb26
+### CSS Background Images
+https://bgjar.com
+
 
 
 
