@@ -1,14 +1,15 @@
+// Dependencies
 import React, { useState, useEffect } from 'react';
-import { Container, AppBar, Typography, Grow, Grid } from '@mui/material';
+import { Container, AppBar, Grow, Grid } from '@mui/material';
+// import { Typography } from '@mui/material';
 import { useDispatch } from 'react-redux';
-
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
-import recipebook from './images/recipebook.png'
-import memories from './images/memories.png'
+//import recipebook from './images/recipebook.png'
 import logo from './images/logo.png'
 import useStyles from './styles';
+/////////////////////////////////////////////////////////
 
 const App = () => {
     const [currentId, setCurrentId] = useState(null);
@@ -23,18 +24,17 @@ const App = () => {
         <Container maxidth="lg">
             <AppBar className={classes.appBar} position="static" color="inherit">
                 {/* <Typography className={classes.heading} variant="h2" align="center">*WORKING TITLE*</Typography>
-                <img className={classes.image} src={memories} alt="memories" height="60" />
-                <img className={classes.image} src={recipebook} alt="recipebook" height="60" /> */}
-                <img className={classes.image} src={logo} alt="recipebook" height="120" />
+                <img className={classes.image} src={recipebook} alt="recipebook" height="60" /> */
+                <img className={classes.image} src={logo} alt="logo" height="120" />}
             </AppBar>
             <Grow in>
                 <Container>
-                    <Grid container justify="space-between" alignItems="stretch" spacing>
-                        <Grid item xs={12} sm={7}>
-                            <Posts setCurrentId={setCurrentId} />
-                        </Grid>
+                    <Grid className={classes.mainContainer} container justify="space-between" alignItems="stretch" spacing>
                         <Grid item xs={12} sm={4}>
                             <Form currentId={currentId} setCurrentId={setCurrentId} />
+                        </Grid>
+                        <Grid item xs={12} sm={7}>
+                            <Posts setCurrentId={setCurrentId} />
                         </Grid>
                     </Grid>
                 </Container>
