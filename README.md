@@ -1,6 +1,7 @@
 # Web App Project
 
 ## About
+
 The purpose of the this app is for users to share their favorite recipes with the world. This app follows the CRUD Application Design where we can create, read, update, and delete posts. I built using the MERN stack which has MongoDB as a database, NodeJS and Express as the backend, and React as the frontend library. React-redux is used for feature scalability while material-ui(react) is used for styling. Future iterations of the app will include additional pages, post sorting/searching, and a user authentication feature. 
 
 ## TODO
