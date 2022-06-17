@@ -1,12 +1,10 @@
 // Dependencies
 import React, { useState, useEffect } from 'react';
-import { Container, AppBar, Grow, Grid } from '@mui/material';
-// import { Typography } from '@mui/material';
+import { Container, AppBar, Grow, Typography, Grid } from '@mui/material';
 import { useDispatch } from 'react-redux';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
-//import recipebook from './images/recipebook.png'
 import logo from './images/logo.png'
 import useStyles from './styles';
 /////////////////////////////////////////////////////////
@@ -22,13 +20,10 @@ const App = () => {
 
     return (
         <Container maxidth="lg">
-            {/* <AppBar className={classes.appBar} position="static" color="inherit">
-                {
-                <Typography className={classes.heading} variant="h2" align="center">*WORKING TITLE*</Typography>
-                <img className={classes.image} src={recipebook} alt="recipebook" height="60" />
-                }
+            {/* <AppBar className={classes.appBar} position="static" color="inherit" >
+                <Typography className={classes.heading} variant="body2">"Anyone can cook"</Typography>
             </AppBar> */}
-            <img className={classes.image} src={logo} alt="logo" height="240" />
+            <img className={classes.image} src={logo} alt="logo" align="left" height="200" width="372" />
             <Grow in>
                 <Container>
                     <Grid className={classes.mainContainer} container justify="space-between" alignItems="stretch" spacing>
