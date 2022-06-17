@@ -25,7 +25,7 @@ const App = () => {
             <AppBar className={classes.appBar} position="static" color="inherit">
                 {/* <Typography className={classes.heading} variant="h2" align="center">*WORKING TITLE*</Typography>
                 <img className={classes.image} src={recipebook} alt="recipebook" height="60" /> */
-                <img className={classes.image} src={logo} alt="logo" height="120" />}
+                <img className={classes.image} src={logo} alt="logo" height="240" />}
             </AppBar>
             <Grow in>
                 <Container>
